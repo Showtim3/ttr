@@ -7,8 +7,12 @@ export default function Sidebar() {
       <ul className="space-y-2">
         <li>Dashboard</li>
         <li>Projects</li>
+        <div>
         <Link href={'/upload'}>Upload Docs</Link>
+        </div>
+        <div>
         <Link href={'/upload-excel'}>Upload Excel</Link>
+        </div>
       </ul>
     </aside>
   );
